@@ -1,0 +1,14 @@
+/Users/jinyeob/Projects/Calculator/Calculator/bin/Debug/netstandard2.0/Calculator.deps.json
+/Users/jinyeob/Projects/Calculator/Calculator/bin/Debug/netstandard2.0/Calculator.dll
+/Users/jinyeob/Projects/Calculator/Calculator/bin/Debug/netstandard2.0/ref/Calculator.dll
+/Users/jinyeob/Projects/Calculator/Calculator/bin/Debug/netstandard2.0/Calculator.pdb
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.csprojAssemblyReference.cache
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.AssemblyInfoInputs.cache
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.AssemblyInfo.cs
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.dll
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/ref/Calculator.dll
+/Users/jinyeob/Projects/Calculator/Calculator/obj/Debug/netstandard2.0/Calculator.pdb

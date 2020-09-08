@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Calculator.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Calculator">
+    <Grid
+        Padding="20"
+        BackgroundColor="Black"
+        ColumnSpacing="10"
+        RowSpacing="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label
+            x:Name="label"
+            Grid.ColumnSpan="4"
+            BackgroundColor="Black"
+            FontSize="50"
+            HorizontalTextAlignment="End"
+            Text="0"
+            TextColor="White"
+            VerticalTextAlignment="Center" />
+
+
+        <Button
+            Grid.Row="2"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="7" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="8" />
+        <Button
+            Grid.Row="2"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="9" />
+
+        <Button
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="4" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="5" />
+        <Button
+            Grid.Row="3"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="6" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="0"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="1" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="1"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="2" />
+        <Button
+            Grid.Row="4"
+            Grid.Column="2"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="3" />
+        <Button
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="3"
+            BackgroundColor="White"
+            Clicked="OnButtonClick"
+            FontSize="50"
+            Text="0" />
+
+
+
+
+        <Button
+            Grid.Row="1"
+            BackgroundColor="Silver"
+            Clicked="OnAc"
+            FontSize="50"
+            Text="AC" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="1"
+            BackgroundColor="Silver"
+            Clicked="OnOperator"
+            FontSize="50"
+            Text="÷" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="2"
+            BackgroundColor="Silver"
+            Clicked="OnOperator"
+            FontSize="50"
+            Text="x" />
+        <Button
+            Grid.Row="1"
+            Grid.Column="3"
+            BackgroundColor="Silver"
+            Clicked="OnOperator"
+            FontSize="50"
+            Text="-" />
+        <Button
+            Grid.Row="2"
+            Grid.RowSpan="2"
+            Grid.Column="3"
+            BackgroundColor="Silver"
+            Clicked="OnOperator"
+            FontSize="50"
+            Text="+" />
+        <Button
+            Grid.Row="4"
+            Grid.RowSpan="2"
+            Grid.Column="3"
+            BackgroundColor="Orange"
+            Clicked="OnResult"
+            FontSize="50"
+            Text="=" />
+
+    </Grid>
+</ContentPage>
